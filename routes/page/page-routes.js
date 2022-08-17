@@ -6,7 +6,14 @@ import {
     pageAdministracionIndex,
     pageAdministracionPrimerIngreso,
     pageAdministracionAsignacionClases,
-    pageAdministracionAsignacionGrado
+    pageAdministracionAsignacionGrado,
+    pageAdministracionAvisos,
+    pageAdministracionCreaionCarreras,
+    pageAdministracionCreacionClases,
+    pageAdministracionCreacionSeccion,
+    pageAdministracionCreacionUsuario,
+    pageAdministracionModificarAvisos,
+    pageAdministracionReingreso
 } from '../../controllers/page/page.controller.js';
 
 const router = express.Router();
@@ -23,4 +30,17 @@ router.get('/page-administracion-asignacionclases', pageAdministracionAsignacion
 
 router.get('/page-administracion-asignaciongrado', pageAdministracionAsignacionGrado)
 
+router.get('/page-administracion-avisos', pageAdministracionAvisos)
+
+router.get('/page-administracion-creacioncarreras', pageAdministracionCreaionCarreras)
+
+router.get('/page-administracion-creacionclases', pageAdministracionCreacionClases)
+
+router.get('/page-administracion-creacionseccion', pageAdministracionCreacionSeccion)
+
+router.get('/page-administracion-creacionusuario', pageAdministracionCreacionUsuario)
+
+router.get('/page-administracion-modificaravisos', pageAdministracionModificarAvisos)
+
+router.get('/page-administracion-reingreso', pageAdministracionReingreso)
 export default router;

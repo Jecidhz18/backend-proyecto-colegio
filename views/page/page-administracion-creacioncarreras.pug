@@ -1,0 +1,65 @@
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/css/normalize.css')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='/css/style-administrador.css')
+  title Document
+header.contenedor.menu
+  section.header-section
+    img(src='/images/logo.jpg' alt='')
+    h2.title-menu INSTITUTO
+    h2.title-menu2 EDUCACI&Oacute;N EN LINEA
+    a(href='javascript:void(0)') Cerrar Sesion
+main.form-main
+  section.menu02
+    section.first-section
+      img(src='/images/imagen-03.jpg' alt='')
+      .first-section-text
+        h3 JUANA PEREZ GARCIA
+        h4 Administrador
+    nav.nav
+      ul.menu-ul
+        li
+          a(href='') MATRICULA PRIMER INGRESO
+        li
+          a(href='') MATRICULA REINGRESO
+        li
+          a(href='') CREACION USUARIO ADMINISTRADORES Y DOCENTES
+        li
+          a(href='') ASIGNACION GRADO DOCENTES
+        li
+          a(href='#') CREACION SECCIONES GRADO
+          ul
+            li
+              a(href='') CREACION CARRERAS
+            li
+              a(href='') CREACION CLASES
+            li
+              a(href='') ASIGNACION CLASES
+        li
+          a(href='') AGREGAR AVISOS
+        li
+          a(href='') MODIFICAR O ELIMINAR AVISOS
+  section.section-form
+    section.section-form-title
+      .circle.blue
+        img(src='/images/icono-secciones.png' alt='')
+      h3 CREACION CARRERAS
+      p 03 / 08 / 2022
+    section.section-form-info
+      form.form(action='')
+        label(for='carrera') Nombre Carrera:
+        input#carrera.largo(type='text' name='carrera' required='')
+        br
+        .input-par
+          input.btn-form(type='submit' value='GUARDAR')
+          input.btn-form(type='submit' value='CANCELAR')
+footer.contenedor.footer
+  h3 Santa Rosa de Copan
+  p Copyright 2022 - Instituto
+script(src='http://code.jquery.com/jquery-1.12.0.min.js')
+script(src='/functions.js')

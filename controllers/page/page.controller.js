@@ -33,6 +33,49 @@ const pageAdministracionAsignacionGrado = (req, res) => {
 
     })
 }
+// 
+const pageAdministracionAvisos = (req, res) => {
+    res.render('page/page-administracion-avisos',{
+
+    })
+}
+
+const pageAdministracionCreaionCarreras = (req, res) => {
+    res.render('page/page-administracion-creacioncarreras',{
+
+    })
+}
+
+const pageAdministracionCreacionClases = (req, res) => {
+    res.render('page/page-administracion-creacionclases',{
+
+    })
+}
+
+const pageAdministracionCreacionSeccion = (req, res) => {
+    res.render('page/page-administracion-creacionseccion',{
+
+    })
+}
+
+const pageAdministracionCreacionUsuario = (req, res) => {
+    res.render('page/page-administracion-creacionusuario',{
+
+    })
+}
+
+const pageAdministracionModificarAvisos = (req, res) => {
+    res.render('page/page-administracion-modificaravisos',{
+
+    })
+}
+
+const pageAdministracionReingreso = (req, res) => {
+    res.render('page/page-administracion-reingreso',{
+
+    })
+}
+
 
 
 export{
@@ -41,5 +84,12 @@ export{
     pageAdministracionIndex,
     pageAdministracionPrimerIngreso,
     pageAdministracionAsignacionClases,
-    pageAdministracionAsignacionGrado
+    pageAdministracionAsignacionGrado,
+    pageAdministracionAvisos,
+    pageAdministracionCreaionCarreras,
+    pageAdministracionCreacionClases,
+    pageAdministracionCreacionUsuario,
+    pageAdministracionReingreso,
+    pageAdministracionModificarAvisos,
+    pageAdministracionCreacionSeccion
 }
