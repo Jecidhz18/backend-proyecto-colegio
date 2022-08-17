@@ -76,6 +76,12 @@ const pageAdministracionReingreso = (req, res) => {
     })
 }
 
+const inicioSesion = (req, res) => {
+    res.render('page/inicio-sesion',{
+
+    })
+}
+
 
 
 export{
@@ -91,5 +97,6 @@ export{
     pageAdministracionCreacionUsuario,
     pageAdministracionReingreso,
     pageAdministracionModificarAvisos,
-    pageAdministracionCreacionSeccion
+    pageAdministracionCreacionSeccion,
+    inicioSesion
 }

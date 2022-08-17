@@ -13,7 +13,8 @@ import {
     pageAdministracionCreacionSeccion,
     pageAdministracionCreacionUsuario,
     pageAdministracionModificarAvisos,
-    pageAdministracionReingreso
+    pageAdministracionReingreso,
+    inicioSesion
 } from '../../controllers/page/page.controller.js';
 
 const router = express.Router();
@@ -43,4 +44,7 @@ router.get('/page-administracion-creacionusuario', pageAdministracionCreacionUsu
 router.get('/page-administracion-modificaravisos', pageAdministracionModificarAvisos)
 
 router.get('/page-administracion-reingreso', pageAdministracionReingreso)
+
+router.get('/inicio-sesion', inicioSesion)
+
 export default router;
