@@ -10,7 +10,14 @@ const pageAvisos = (req, res) => {
     })
 }
 
+const pageAdministracionIndex = (req, res) => {
+    res.render('page/page-administracion-index',{
+
+    })
+}
+
 export{
     pageHome,
-    pageAvisos
+    pageAvisos,
+    pageAdministracionIndex
 }

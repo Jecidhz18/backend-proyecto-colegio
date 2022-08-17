@@ -36,6 +36,10 @@ h3{
     font-size: 2.4rem;
 }
 
+h4{
+    font-size: 2rem;
+}
+
 .contenedor{
     min-width: 110rem;
     margin-top: 0;
@@ -51,6 +55,29 @@ h3{
     margin: 7rem 0 7rem 0;
 }
 
+.gray {
+    background-color: #D9D9D9;
+}
+
+.orange {
+    background-color: #FF6400;
+}
+
+.yellow {
+    background-color: #FFC848;
+}
+
+.green {
+    background-color: #7DCEA0;
+}
+
+.blue {
+    background-color: #3498DB;
+}
+
+.purple {
+    background-color: #B931F4;
+}
 
 /*          Header          */
 
@@ -73,13 +100,14 @@ h3{
 }
 
 .menu img {
-    width: 8rem;
+    width: 7rem;
     margin-right: 3rem;
     float: left;
 }
 
 .menu h2{
     color: white;
+    font-size: 2.5rem;
 }
 
 
@@ -88,7 +116,7 @@ h3{
     margin-top: 2.5rem;
     margin-right: 1.5rem;
     color: #FFC900;
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .title-menu {
@@ -298,21 +326,21 @@ h3{
 
 .footer {
     width: 100%;
-    height: 12.6rem;
+    height: 10rem;
     background-color: #190061;
     margin-top: 10rem;
-    padding: 3.5rem;
+    padding: 1rem;
 }
 
 .footer h3 {
-    line-height: 0;
+    margin: 0;
     text-align: center;
     color: white;
 }
 
 .footer p {
     color: #FFC900;
-    font-size: 2.4rem;
+    font-size: 2rem;
     text-align: center;
     line-height: 0;
 
@@ -330,7 +358,6 @@ h3{
 }
 
 .avisos-text{
-    max-width: 58rem;
     margin: 5rem;
     padding: 5rem 5rem 0 5rem;
     background-color: #EDEDED;
@@ -362,9 +389,383 @@ h3{
     margin: -5rem;
     margin-bottom: 5rem;
     background-color: #FFC900;
-
 }
 
-h3{
+/*          PAGE ADMINISTRACION INDEX          */
+
+/*BANNER*/
+
+.banner-administrador {
+    background-image: url(../images/banner-admin-index.jpg);
+    background-position: bottom;
+    width: 100%;
+    height: 60.7rem;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.banner-administrador-text{
+    width: 100%;
+    height: 13.9rem;
+    background-color: rgba(25, 0, 97, 0.5);
+    text-align: center;
+    color: white;
+    padding: 2.5rem;
+}
+
+.banner-administrador-text h1{
+    font-size: 5rem;
+}
+
+/*USER*/
+
+.user-section{
+    width: 100%;
+    min-height: 18.5rem;
+    margin-top: 5rem;
+    display: inline-flex;
+}
+
+.user-sec01{
+    display: inline-flex;
+}
+
+.user-sec01 img{
+    width: 15rem;
+    height: 15rem;
+    margin-left: 5rem;
+    border-radius: 9rem;
+}
+
+.user-sec01 h2{
+    color: #190061;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.user-sec-letter{
+    min-width: 50rem;
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+
+.user-sec02{
+    width: 100%;
+    text-align: right;
+    margin-right: 5rem;
+    padding: 2rem;
+}
+
+.color-orange{
     color: #FF6400;
+}
+
+/*SERVICIOS*/
+
+.servicios-admin{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+.servicio{
+    min-width: 31rem;
+    min-height: 45.1rem;
+    border: 0.3rem solid #EDEDED;
+    padding: 5rem 0 5rem 0;
+}
+
+.circle{
+    width: 19rem;
+    height: 19rem;
+    margin: auto;
+    padding-top: 4.5rem;
+    border-radius: 19rem;
+}
+
+.servicio img{
+    width: 10rem;
+    display: block;
+    margin: auto;
+}
+
+.servicio h4{
+    margin: auto;
+    margin-top: 10rem;
+    color: #190061;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+
+.servicio h4:hover{
+    color: #FFC900;
+}
+
+/*          PAGE ADMINISTRACION PRIMER INGRESO         */
+
+/*MENU*/
+
+.form-main{
+    width: auto;
+    display: inline-flex;
+}
+
+.menu02{
+    width: 40rem;
+    height: auto;
+    background-color: #190061;
+    margin: 3rem 4rem 4rem 0;
+    display: inline-block;
+}
+
+.first-section{
+    width: 100%;
+    height: 14rem;
+    background-color: #B931F4;
+    display: inline-flex;
+}
+
+.first-section img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 9rem;
+    margin: 1.5rem;
+}
+
+.first-section-text{
+    margin: 0.5rem;
+    margin-right: 2rem;
+}
+
+.first-section-text h3 {
+    margin: 0;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    color: #190061;
+    text-transform: uppercase;
+}
+
+.first-section-text h4 {
+    margin: 0;
+    color: white;
+}
+
+.nav{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+.nav .menu-ul {
+    width: 100%;
+}
+
+.nav .menu-ul li a {
+    display: block;
+    padding: 1.5rem 2rem;
+    border-top: 0.1rem solid #6E7CFD;
+    border-bottom: 0.1rem solid #6E7CFD;
+    margin-top: 2rem;
+    color: #FFFFFF;
+}
+
+.nav .menu-ul li a:hover{
+    background-color: #6E7CFD;
+}
+
+.nav .menu-ul ul {
+    display: none;
+    padding-left: 4rem;
+}
+
+.nav .menu-ul ul li a {
+    background-color: #211F76;
+    color:#FFC848;
+    border:none;
+    margin: 0;
+}
+
+.nav .menu-ul ul li a:hover {
+    color:#FFFFFF;
+}
+
+.activado a{
+    background-color: #6E7CFD;
+}
+
+/*FORMULARIO*/
+
+.section-form{
+    width: auto;
+    margin-top: 3rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section-form-title{
+    width: 90%;
+    height: 14rem;
+    display: inline-flex;
+}
+
+.section-form-title .circle{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    padding-top: 2rem;
+    border-radius: 19rem;
+}
+
+.section-form-title .circle img{
+    width: 6rem;
+    display: block;
+    margin: auto;
+}
+
+.section-form-title h3 {
+    color: #6E7CFD;
+    margin: auto;
+    margin-left: 0.1rem;
+}
+
+.section-form-title p {
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.section-form-info{
+    width: 92%;
+    margin: auto;
+    border: 0.2rem solid #D9D9D9;
+    border-radius: 1.5rem;
+}
+
+.form{
+    margin: 2rem;
+}
+
+.form label {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.form input {
+    padding-left: 1.5rem;
+}
+
+.input-par{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.input-par-check{
+    display: inline-flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.label-par{
+    display: inline-flex;
+    width: 106%;
+}
+
+.label-par p{
+    display: inline-flex;
+    width: 106%;
+    font-size: 1.2rem;
+    margin: -1rem 0 2rem 0;
+}
+
+.largo{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #190061;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.medio{
+    width: 47%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #190061;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.medio-chek{
+    width: 47%;
+    height: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.checkbox-form{
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.checkbox-form-center-label{
+    width: 100%;
+    display: inline-flex;
+    text-align: center;
+}
+
+.checkbox-form-center-input{
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+.checkbox-form-center{
+    width: 100%;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.checkbox-form-center input{
+    margin-left: 7rem;
+}
+
+input[type="checkbox"]{
+    margin-right: 1rem;
+}
+
+.btn-form{
+    width: 47%;
+    height: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #6E7CFD;
+    color: white;
+}
+
+.btn-form:hover{
+    background-color: #FFC900;
+    color: white;
+    transition: all .3s;
 }

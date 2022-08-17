@@ -1,0 +1,68 @@
+doctype html 
+html(lang='es')
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/css/normalize.css')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='/css/style-administrador.css')
+  title Document
+header.contenedor.menu
+  section.header-section
+    img(src='/images/logo.jpg' alt='')
+    h2.title-menu INSTITUTO
+    h2.title-menu2 EDUCACI&Oacute;N EN LINEA
+    a(href='javascript:void(0)') Cerrar Sesion
+section.contenedor.banner-administrador
+  section.categoria
+    .banner-administrador-text
+      h1 &iexcl;Bienvenidos!
+section.contenedor.user-section
+  .user-sec01
+    img(src='/images/imagen-03.jpg' alt='')
+    .user-sec-letter
+      h2 JUANA PEREZ GARCIA
+      h4.color-orange Administrador
+  .user-sec02
+    h4.color-orange Cambiar Contrase&ntilde;a
+    h4 03 / Agosto / 2022
+main.contenedor
+  h2.title ELIGE UN SERVICIO
+  section.servicios-admin
+    a(href='')
+      .servicio
+        .circle.gray
+          img(src='/images/icono-matriula-ingreso.png' alt='')
+        h4 MATRICULA PRIMER INGRESO
+    a(href='')
+      .servicio
+        .circle.orange
+          img(src='/images/icono-matricula-reingreso.png' alt='')
+        h4 MATRICULA REINGRESO
+    a(href='')
+      .servicio
+        .circle.yellow
+          img(src='/images/icono-agregar-usuario.png' alt='')
+        h4 CREACION USUARIOS ADMINISTRADORES Y DOCENTES
+  section.servicios-admin
+    a(href='')
+      .servicio
+        .circle.green
+          img(src='/images/icono-asignar.png' alt='')
+        h4 ASIGNACION GRADO DOCENTES
+    a(href='')
+      .servicio
+        .circle.blue
+          img(src='/images/icono-secciones.png' alt='')
+        h4 CREACION SECCIONES GRADO
+    a(href='')
+      .servicio
+        .circle.purple
+          img(src='/images/icono-aviso.png' alt='')
+        h4 AVISOS
+footer.contenedor.footer
+  h3 Santa Rosa de Copan
+  p Copyright 2022 - Instituto
