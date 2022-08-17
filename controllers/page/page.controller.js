@@ -4,6 +4,13 @@ const pageHome = (req, res) => {
     })
 }
 
+const pageAvisos = (req, res) => {
+    res.render('page/page-avisos',{
+
+    })
+}
+
 export{
-    pageHome
+    pageHome,
+    pageAvisos
 }
