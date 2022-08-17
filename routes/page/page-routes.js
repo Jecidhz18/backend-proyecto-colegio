@@ -5,7 +5,8 @@ import {
     pageHome,
     pageAdministracionIndex,
     pageAdministracionPrimerIngreso,
-    pageAdministracionAsignacionClases
+    pageAdministracionAsignacionClases,
+    pageAdministracionAsignacionGrado
 } from '../../controllers/page/page.controller.js';
 
 const router = express.Router();
@@ -19,5 +20,7 @@ router.get('/page-administracion-index', pageAdministracionIndex)
 router.get('/page-administracion-primer-ingreso', pageAdministracionPrimerIngreso)
 
 router.get('/page-administracion-asignacionclases', pageAdministracionAsignacionClases)
+
+router.get('/page-administracion-asignaciongrado', pageAdministracionAsignacionGrado)
 
 export default router;

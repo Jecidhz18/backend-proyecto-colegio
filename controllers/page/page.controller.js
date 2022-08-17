@@ -28,11 +28,18 @@ const pageAdministracionAsignacionClases = (req, res) => {
     })
 }
 
+const pageAdministracionAsignacionGrado = (req, res) => {
+    res.render('page/page-administracion-asignaciongrado',{
+
+    })
+}
+
 
 export{
     pageHome,
     pageAvisos,
     pageAdministracionIndex,
     pageAdministracionPrimerIngreso,
-    pageAdministracionAsignacionClases
+    pageAdministracionAsignacionClases,
+    pageAdministracionAsignacionGrado
 }
