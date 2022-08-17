@@ -16,8 +16,16 @@ const pageAdministracionIndex = (req, res) => {
     })
 }
 
+const pageAdministracionPrimerIngreso = (req, res) => {
+    res.render('page/page-administracion-primer-ingreso',{
+
+    })
+}
+
+
 export{
     pageHome,
     pageAvisos,
-    pageAdministracionIndex
+    pageAdministracionIndex,
+    pageAdministracionPrimerIngreso
 }
