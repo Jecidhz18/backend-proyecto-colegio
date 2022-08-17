@@ -22,10 +22,17 @@ const pageAdministracionPrimerIngreso = (req, res) => {
     })
 }
 
+const pageAdministracionAsignacionClases = (req, res) => {
+    res.render('page/page-administracion-asignacionclases',{
+
+    })
+}
+
 
 export{
     pageHome,
     pageAvisos,
     pageAdministracionIndex,
-    pageAdministracionPrimerIngreso
+    pageAdministracionPrimerIngreso,
+    pageAdministracionAsignacionClases
 }

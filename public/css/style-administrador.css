@@ -516,12 +516,14 @@ h4{
 
 .form-main{
     width: auto;
+    min-width: 100%;
     display: inline-flex;
 }
 
 .menu02{
     width: 40rem;
     height: auto;
+    min-height: 90rem;
     background-color: #190061;
     margin: 3rem 4rem 4rem 0;
     display: inline-block;
@@ -610,7 +612,7 @@ h4{
 /*FORMULARIO*/
 
 .section-form{
-    width: auto;
+    width: 90%;
     margin-top: 3rem;
     display: inline-flex;
     flex-direction: column;
@@ -653,6 +655,7 @@ h4{
     margin: auto;
     border: 0.2rem solid #D9D9D9;
     border-radius: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .form{
@@ -671,10 +674,22 @@ h4{
     padding-left: 1.5rem;
 }
 
+.textarea{
+    resize: none;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #190061;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+}
+
 .input-par{
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .input-par-check{
@@ -704,6 +719,7 @@ h4{
     border-radius: 0.5rem;
     font-size: 1.5rem;
 }
+
 
 .medio{
     width: 47%;
@@ -750,6 +766,7 @@ h4{
 
 input[type="checkbox"]{
     margin-right: 1rem;
+    cursor: pointer;
 }
 
 .btn-form{
@@ -768,4 +785,55 @@ input[type="checkbox"]{
     background-color: #FFC900;
     color: white;
     transition: all .3s;
+}
+
+
+.image{
+    width: 13.5rem;
+    height: 18.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin: auto;
+    background-color: #D9D9D9;
+}
+
+.image input[type="file"]{
+    display: none;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 0.1rem;
+    cursor: pointer;
+    background-image: url(../images/icon-camera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 10rem;
+}
+
+
+.icon-camera{
+    width: 100%;
+    height: 100%;
+}
+
+.cuadro-asignacion{
+    width: 95%;
+    height: auto;
+    background-color: #F4F5FF;
+    margin: auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.check-cuadro-asignacion{
+    margin-left: 0.1rem;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.center-text{
+    text-align: center;
 }
